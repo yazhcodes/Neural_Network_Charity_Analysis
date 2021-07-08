@@ -17,5 +17,9 @@ Using bulleted lists and images to support your answers, address the following q
   *  The 'ASK AMT' was dropped because it had 8747 unique values, which was adding noise to the dataset.
   *  500 epochs were used to fit the model.
 
+<p align='centre'>
+<img src='https://github.com/yazhcodes/Neural_Network_Charity_Analysis/blob/main/Resources/Result.png'></img>
+</p>
+
 # Summary: 
 Despite the several attempts to optimize the model, the desired 75% accuracy could not be achieved. I would recommend to bin the 'ASK AMT' column into categories and utilizing it to train the model better, instead of dropping the column altogether. Also, the dataset is too small with too many variable making the input very noisy. Either the volume of data should be expanded or more insights could be gathered about the variables to determine if any of those features could be non-benificial and just adding noise to the model. 
